@@ -1,0 +1,1913 @@
+{
+  "schema_version": 1,
+  "model_id": "CANON_IR1643I",
+  "variant": "WITHOUT_NFC",
+  "canonical_unit": "mm",
+  "overall_dimensions": {
+    "width_mm": 480,
+    "depth_mm": 464,
+    "height_mm": 452,
+    "geometry_status": "OEM_MEASURED",
+    "estimated": false,
+    "source_document": "SM_R6",
+    "source_page": 21
+  },
+  "notice": "Modelo visual aproximado. La geometría interna y las trayectorias no son medidas OEM.",
+  "components": [
+    {
+      "id": "equipment",
+      "parent_id": null,
+      "label": "Canon imageRUNNER 1643i",
+      "category": "equipment",
+      "part_number": null,
+      "quantity": null,
+      "source_document": "PC_R9",
+      "source_page": 21,
+      "source_figure": "Service Manual overall dimensions",
+      "geometry": null,
+      "geometry_status": "PHYSICAL_VALIDATION_REQUIRED",
+      "estimated": false,
+      "measurement_source": "Topological group only; no metric geometry"
+    },
+    {
+      "id": "body",
+      "parent_id": "equipment",
+      "label": "Cuerpo principal",
+      "category": "body",
+      "part_number": null,
+      "quantity": null,
+      "oem_description": "Cuerpo principal",
+      "source_document": "SM_R6",
+      "source_page": 21,
+      "source_figure": "Overall dimensions",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          145,
+          0
+        ],
+        "size_mm": [
+          480,
+          290,
+          464
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from SM_R6 PDF page 21; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          0,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "NONE"
+    },
+    {
+      "id": "rear_door",
+      "parent_id": "equipment",
+      "label": "Rear Door Unit",
+      "category": "cover",
+      "part_number": "FM1-T491-000",
+      "quantity": 1,
+      "oem_description": "REAR DOOR ASS'Y",
+      "source_document": "PC_R9",
+      "source_page": 23,
+      "source_figure": "Figure 100B",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          144,
+          -234
+        ],
+        "size_mm": [
+          438,
+          232,
+          14
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 100B and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "cassette",
+      "parent_id": "equipment",
+      "label": "Cassette",
+      "category": "tray",
+      "part_number": "FM1-N488-000",
+      "quantity": 1,
+      "oem_description": "CASSETTE ASS'Y",
+      "source_document": "PC_R9",
+      "source_page": 27,
+      "source_figure": "Figure 102A",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          52,
+          205
+        ],
+        "size_mm": [
+          405,
+          92,
+          350
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 102A and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "SLIDE"
+    },
+    {
+      "id": "right_cover",
+      "parent_id": "equipment",
+      "label": "Right Cover Unit",
+      "category": "cover",
+      "part_number": "FM1-T493-000",
+      "quantity": 1,
+      "oem_description": "RIGHT COVER ASS'Y",
+      "source_document": "PC_R9",
+      "source_page": 23,
+      "source_figure": "Figure 100B",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          233,
+          160,
+          0
+        ],
+        "size_mm": [
+          13,
+          255,
+          424
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 100B and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "left_cover",
+      "parent_id": "equipment",
+      "label": "Left Cover Unit",
+      "category": "cover",
+      "part_number": "FM1-T492-000",
+      "quantity": 1,
+      "oem_description": "LEFT COVER ASS'Y",
+      "source_document": "PC_R9",
+      "source_page": 23,
+      "source_figure": "Figure 100B",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          -233,
+          160,
+          0
+        ],
+        "size_mm": [
+          13,
+          255,
+          424
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 100B and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          -1,
+          0,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "rear_top_cover",
+      "parent_id": "equipment",
+      "label": "Rear Top Cover",
+      "category": "cover",
+      "part_number": "FE8-6707-000",
+      "quantity": 1,
+      "oem_description": "COVER, TOP, REAR",
+      "source_document": "PC_R9",
+      "source_page": 23,
+      "source_figure": "Figure 100B",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          298,
+          -189
+        ],
+        "size_mm": [
+          435,
+          18,
+          78
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 100B and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          -1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "cartridge",
+      "parent_id": "equipment",
+      "label": "Cartridge (posición ilustrativa)",
+      "category": "assembly",
+      "part_number": null,
+      "quantity": null,
+      "oem_description": "Cartridge (posición ilustrativa)",
+      "source_document": "SM_R6",
+      "source_page": 130,
+      "source_figure": "Service Manual procedure photograph",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          174,
+          110
+        ],
+        "size_mm": [
+          284,
+          112,
+          190
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from SM_R6 PDF page 130; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "SLIDE"
+    },
+    {
+      "id": "control_panel",
+      "parent_id": "equipment",
+      "label": "Control Panel Assembly",
+      "category": "panel",
+      "part_number": "FM1-R686-020",
+      "quantity": 1,
+      "oem_description": "CONTROL PANEL ASS'Y",
+      "source_document": "PC_R9",
+      "source_page": 43,
+      "source_figure": "Figure 130B",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          165,
+          308,
+          215
+        ],
+        "size_mm": [
+          135,
+          40,
+          78
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 130B and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "ROTATE_OPEN"
+    },
+    {
+      "id": "controller_pcb",
+      "parent_id": "equipment",
+      "label": "DC Controller PCB",
+      "category": "pcb",
+      "part_number": "FM2-M824-000",
+      "quantity": 1,
+      "oem_description": "DC CONTROLLER PCB ASSEMBLY",
+      "source_document": "PC_R9",
+      "source_page": 31,
+      "source_figure": "Figure 103",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          100,
+          178,
+          -64
+        ],
+        "size_mm": [
+          118,
+          150,
+          6
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 103 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "main_motor",
+      "parent_id": "equipment",
+      "label": "Main Motor",
+      "category": "motor",
+      "part_number": "RM2-9531-000",
+      "quantity": 1,
+      "oem_description": "MAIN MOTOR ASS'Y",
+      "source_document": "PC_R9",
+      "source_page": 27,
+      "source_figure": "Figure 102A",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          -127,
+          123,
+          -98
+        ],
+        "size_mm": [
+          70,
+          70,
+          68
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 102A and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          -1,
+          0,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "transfer_roller",
+      "parent_id": "equipment",
+      "label": "Transfer Roller",
+      "category": "roller",
+      "part_number": "RM1-4023-000",
+      "quantity": 1,
+      "oem_description": "ROLLER, TRANSFER",
+      "source_document": "PC_R9",
+      "source_page": 31,
+      "source_figure": "Figure 103",
+      "geometry": {
+        "primitive": "cylinder",
+        "position_mm": [
+          0,
+          135,
+          30
+        ],
+        "size_mm": [
+          300,
+          20,
+          20
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 103 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "reader_adf",
+      "parent_id": "equipment",
+      "label": "Reader/ADF Assembly",
+      "category": "assembly",
+      "part_number": null,
+      "quantity": null,
+      "source_document": "PC_R9",
+      "source_page": 44,
+      "source_figure": "Figure 160",
+      "geometry": null,
+      "geometry_status": "PHYSICAL_VALIDATION_REQUIRED",
+      "estimated": false,
+      "measurement_source": "Topological group only; no metric geometry"
+    },
+    {
+      "id": "reader",
+      "parent_id": "reader_adf",
+      "label": "Reader Assembly",
+      "category": "assembly",
+      "part_number": "FM1-U532-000",
+      "quantity": 1,
+      "oem_description": "READER ASSEMBLY",
+      "source_document": "PC_R9",
+      "source_page": 50,
+      "source_figure": "Figure 400A",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          335,
+          0
+        ],
+        "size_mm": [
+          476,
+          72,
+          450
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 400A and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "LIFT"
+    },
+    {
+      "id": "adf",
+      "parent_id": "reader_adf",
+      "label": "ADF Unit (envolvente simulada)",
+      "category": "assembly",
+      "part_number": null,
+      "quantity": null,
+      "oem_description": "ADF Unit (envolvente simulada)",
+      "source_document": "SM_R6",
+      "source_page": 151,
+      "source_figure": "Service Manual procedure photograph",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          416,
+          0
+        ],
+        "size_mm": [
+          470,
+          72,
+          445
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from SM_R6 PDF page 151; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "LIFT"
+    },
+    {
+      "id": "adf_covers",
+      "parent_id": "reader_adf",
+      "label": "Covers",
+      "category": "cover",
+      "part_number": null,
+      "quantity": null,
+      "source_document": "PC_R9",
+      "source_page": 44,
+      "source_figure": "Figure 160",
+      "geometry": null,
+      "geometry_status": "PHYSICAL_VALIDATION_REQUIRED",
+      "estimated": false,
+      "measurement_source": "Topological group only; no metric geometry"
+    },
+    {
+      "id": "adf_rollers",
+      "parent_id": "reader_adf",
+      "label": "Rollers",
+      "category": "roller",
+      "part_number": null,
+      "quantity": null,
+      "source_document": "PC_R9",
+      "source_page": 44,
+      "source_figure": "Figure 160",
+      "geometry": null,
+      "geometry_status": "PHYSICAL_VALIDATION_REQUIRED",
+      "estimated": false,
+      "measurement_source": "Topological group only; no metric geometry"
+    },
+    {
+      "id": "adf_hinges",
+      "parent_id": "reader_adf",
+      "label": "Hinges",
+      "category": "hinge",
+      "part_number": null,
+      "quantity": null,
+      "source_document": "PC_R9",
+      "source_page": 44,
+      "source_figure": "Figure 160",
+      "geometry": null,
+      "geometry_status": "PHYSICAL_VALIDATION_REQUIRED",
+      "estimated": false,
+      "measurement_source": "Topological group only; no metric geometry"
+    },
+    {
+      "id": "adf_tray",
+      "parent_id": "reader_adf",
+      "label": "Tray",
+      "category": "tray",
+      "part_number": null,
+      "quantity": null,
+      "source_document": "PC_R9",
+      "source_page": 44,
+      "source_figure": "Figure 160",
+      "geometry": null,
+      "geometry_status": "PHYSICAL_VALIDATION_REQUIRED",
+      "estimated": false,
+      "measurement_source": "Topological group only; no metric geometry"
+    },
+    {
+      "id": "adf_fasteners",
+      "parent_id": "reader_adf",
+      "label": "Screws",
+      "category": "screw",
+      "part_number": null,
+      "quantity": null,
+      "source_document": "PC_R9",
+      "source_page": 44,
+      "source_figure": "Figure 160",
+      "geometry": null,
+      "geometry_status": "PHYSICAL_VALIDATION_REQUIRED",
+      "estimated": false,
+      "measurement_source": "Topological group only; no metric geometry"
+    },
+    {
+      "id": "adf_guides",
+      "parent_id": "reader_adf",
+      "label": "Guides",
+      "category": "guide",
+      "part_number": null,
+      "quantity": null,
+      "source_document": "PC_R9",
+      "source_page": 44,
+      "source_figure": "Figure 160",
+      "geometry": null,
+      "geometry_status": "PHYSICAL_VALIDATION_REQUIRED",
+      "estimated": false,
+      "measurement_source": "Topological group only; no metric geometry"
+    },
+    {
+      "id": "adf_rear_cover",
+      "parent_id": "adf_covers",
+      "label": "COVER, REAR",
+      "category": "cover",
+      "part_number": "FE8-3474-000",
+      "quantity": 1,
+      "oem_description": "COVER, REAR",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          447,
+          -205
+        ],
+        "size_mm": [
+          330,
+          19,
+          26
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          -1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "adf_front_cover",
+      "parent_id": "adf_covers",
+      "label": "COVER, FRONT",
+      "category": "cover",
+      "part_number": "FE8-3475-000",
+      "quantity": 1,
+      "oem_description": "COVER, FRONT",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          447,
+          205
+        ],
+        "size_mm": [
+          330,
+          19,
+          26
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "adf_separation_roller_assembly",
+      "parent_id": "adf_rollers",
+      "label": "SEPARATION ROLLER ASSEMBLY",
+      "category": "roller",
+      "part_number": "FM1-N703-000",
+      "quantity": 1,
+      "oem_description": "SEPARATION ROLLER ASSEMBLY",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "cylinder",
+        "position_mm": [
+          -54,
+          414,
+          32
+        ],
+        "size_mm": [
+          80,
+          26,
+          26
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "adf_pickup_roller",
+      "parent_id": "adf_rollers",
+      "label": "ROLLER, PICK-UP",
+      "category": "roller",
+      "part_number": "FC8-9251-000",
+      "quantity": 1,
+      "oem_description": "ROLLER, PICK-UP",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "cylinder",
+        "position_mm": [
+          30,
+          424,
+          57
+        ],
+        "size_mm": [
+          54,
+          17,
+          17
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "adf_separation_roller",
+      "parent_id": "adf_rollers",
+      "label": "ROLLER, SEPARATION",
+      "category": "roller",
+      "part_number": "FL3-1023-000",
+      "quantity": 1,
+      "oem_description": "ROLLER, SEPARATION",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "cylinder",
+        "position_mm": [
+          -25,
+          423,
+          57
+        ],
+        "size_mm": [
+          54,
+          17,
+          17
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "adf_hinge_left",
+      "parent_id": "adf_hinges",
+      "label": "HINGE (representación izquierda)",
+      "category": "hinge",
+      "part_number": "FM1-T197-000",
+      "quantity": 2,
+      "oem_description": "HINGE",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "cylinder",
+        "position_mm": [
+          -173,
+          372,
+          -174
+        ],
+        "size_mm": [
+          32,
+          45,
+          30
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          -1,
+          0,
+          -1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "ROTATE_OPEN"
+    },
+    {
+      "id": "adf_hinge_right",
+      "parent_id": "adf_hinges",
+      "label": "HINGE (representación derecha)",
+      "category": "hinge",
+      "part_number": "FM1-T197-000",
+      "quantity": 2,
+      "oem_description": "HINGE",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "cylinder",
+        "position_mm": [
+          173,
+          372,
+          -174
+        ],
+        "size_mm": [
+          32,
+          45,
+          30
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          1,
+          0,
+          -1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "ROTATE_OPEN"
+    },
+    {
+      "id": "adf_document_tray",
+      "parent_id": "adf_tray",
+      "label": "DOCUMENT TRAY ASSEMBLY",
+      "category": "tray",
+      "part_number": "FM1-N711-000",
+      "quantity": 1,
+      "oem_description": "DOCUMENT TRAY ASSEMBLY",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          439,
+          120
+        ],
+        "size_mm": [
+          320,
+          13,
+          190
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "ROTATE_OPEN"
+    },
+    {
+      "id": "adf_screws",
+      "parent_id": "adf_fasteners",
+      "label": "SCREW, TP M3X8 (grupo)",
+      "category": "screw",
+      "part_number": "XA9-0476-000",
+      "quantity": 15,
+      "oem_description": "SCREW,TP M3X8",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "cylinder",
+        "position_mm": [
+          0,
+          369,
+          -160
+        ],
+        "size_mm": [
+          22,
+          12,
+          12
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          -1
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "UNSCREW"
+    },
+    {
+      "id": "adf_paper_feed_guide",
+      "parent_id": "adf_guides",
+      "label": "PAPER FEED GUIDE ASSEMBLY",
+      "category": "guide",
+      "part_number": "FM1-P584-000",
+      "quantity": 1,
+      "oem_description": "PAPER FEED GUIDE ASSEMBLY",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          0,
+          405,
+          90
+        ],
+        "size_mm": [
+          170,
+          17,
+          28
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          0,
+          1,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "adf_cable_guide",
+      "parent_id": "adf_guides",
+      "label": "GUIDE, CABLE",
+      "category": "guide",
+      "part_number": "FE8-3462-000",
+      "quantity": 1,
+      "oem_description": "GUIDE, CABLE",
+      "source_document": "PC_R9",
+      "source_page": 45,
+      "source_figure": "Figure 160",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          143,
+          382,
+          -128
+        ],
+        "size_mm": [
+          70,
+          13,
+          14
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from PC_R9 Figure 160 and SM_R6 photographs; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "REMOVE_LINEAR"
+    },
+    {
+      "id": "adf_connectors",
+      "parent_id": "reader_adf",
+      "label": "Conectores del paso OEM (4x)",
+      "category": "connector",
+      "part_number": null,
+      "quantity": null,
+      "oem_description": "Conectores del paso OEM (4x)",
+      "source_document": "SM_R6",
+      "source_page": 151,
+      "source_figure": "Service Manual procedure photograph",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          166,
+          330,
+          -49
+        ],
+        "size_mm": [
+          58,
+          24,
+          20
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from SM_R6 PDF page 151; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "DISCONNECT"
+    },
+    {
+      "id": "adf_flat_cable",
+      "parent_id": "reader_adf",
+      "label": "Cable plano del paso OEM",
+      "category": "cable",
+      "part_number": null,
+      "quantity": null,
+      "oem_description": "Cable plano del paso OEM",
+      "source_document": "SM_R6",
+      "source_page": 152,
+      "source_figure": "Service Manual procedure photograph",
+      "geometry": {
+        "primitive": "box",
+        "position_mm": [
+          137,
+          342,
+          0
+        ],
+        "size_mm": [
+          90,
+          5,
+          18
+        ],
+        "geometry_status": "OEM_IMAGE_APPROXIMATED",
+        "estimated": true,
+        "measurement_source": "Illustrative proportions from SM_R6 PDF page 152; not metric OEM data"
+      },
+      "geometry_status": "OEM_IMAGE_APPROXIMATED",
+      "estimated": true,
+      "measurement_source": "Visual simulation only; internal dimensions/positions not specified by OEM",
+      "explosion": {
+        "direction": [
+          1,
+          0,
+          0
+        ],
+        "distance_mm": 90,
+        "distance_status": "APPROXIMATED",
+        "estimated": true
+      },
+      "animation_type": "DISCONNECT"
+    }
+  ],
+  "states": [
+    {
+      "id": "STATE_00_COMPLETE",
+      "procedure_step": null,
+      "visible_components": [
+        "body",
+        "rear_door",
+        "cassette",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover",
+        "cartridge",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_screws",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [],
+      "active_anchors": [],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 151
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_01_REAR_DOOR_REMOVED",
+      "procedure_step": "rear_door_removed",
+      "visible_components": [
+        "body",
+        "cassette",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover",
+        "cartridge",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_screws",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door"
+      ],
+      "active_anchors": [],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 127
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_02_CASSETTE_REMOVED",
+      "procedure_step": "cassette_removed",
+      "visible_components": [
+        "body",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover",
+        "cartridge",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_screws",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette"
+      ],
+      "active_anchors": [],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 151
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_03_CARTRIDGE_REMOVED",
+      "procedure_step": "cartridge_removed",
+      "visible_components": [
+        "body",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_screws",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette",
+        "cartridge"
+      ],
+      "active_anchors": [],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 130
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_04_RIGHT_COVER_REMOVED",
+      "procedure_step": "right_cover_removed",
+      "visible_components": [
+        "body",
+        "left_cover",
+        "rear_top_cover",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_screws",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette",
+        "cartridge",
+        "right_cover"
+      ],
+      "active_anchors": [],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 131
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_05_LEFT_COVER_REMOVED",
+      "procedure_step": "left_cover_removed",
+      "visible_components": [
+        "body",
+        "rear_top_cover",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_screws",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette",
+        "cartridge",
+        "right_cover",
+        "left_cover"
+      ],
+      "active_anchors": [],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 138
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_06_REAR_TOP_COVER_REMOVED",
+      "procedure_step": "rear_top_cover_removed",
+      "visible_components": [
+        "body",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_screws",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette",
+        "cartridge",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover"
+      ],
+      "active_anchors": [],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 142
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_07_ADF_READER_ACCESS",
+      "procedure_step": "ADF_REMOVE_01",
+      "visible_components": [
+        "body",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_screws",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette",
+        "cartridge",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover"
+      ],
+      "active_anchors": [
+        "ADF_REMOVE_01"
+      ],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 151
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_08_ADF_FASTENERS_RELEASED",
+      "procedure_step": "ADF_REMOVE_02",
+      "visible_components": [
+        "body",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_connectors",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette",
+        "cartridge",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover",
+        "adf_screws"
+      ],
+      "active_anchors": [
+        "ADF_REMOVE_02"
+      ],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 151
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_09_ADF_CABLING_RELEASED",
+      "procedure_step": "ADF_REMOVE_03",
+      "visible_components": [
+        "body",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_paper_feed_guide",
+        "adf_cable_guide",
+        "adf_flat_cable"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette",
+        "cartridge",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover",
+        "adf_screws",
+        "adf_connectors"
+      ],
+      "active_anchors": [
+        "ADF_REMOVE_03"
+      ],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 151
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    },
+    {
+      "id": "STATE_10_ADF_READER_REMOVED",
+      "procedure_step": "FINAL_REVIEW",
+      "visible_components": [
+        "body",
+        "control_panel",
+        "controller_pcb",
+        "main_motor",
+        "transfer_roller"
+      ],
+      "hidden_components": [],
+      "removed_components": [
+        "rear_door",
+        "cassette",
+        "cartridge",
+        "right_cover",
+        "left_cover",
+        "rear_top_cover",
+        "adf_screws",
+        "adf_connectors",
+        "adf_flat_cable",
+        "reader_adf",
+        "reader",
+        "adf",
+        "adf_rear_cover",
+        "adf_front_cover",
+        "adf_separation_roller_assembly",
+        "adf_pickup_roller",
+        "adf_separation_roller",
+        "adf_hinge_left",
+        "adf_hinge_right",
+        "adf_document_tray",
+        "adf_paper_feed_guide",
+        "adf_cable_guide"
+      ],
+      "active_anchors": [],
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 152
+      },
+      "geometry_status": "SIMULATION_ONLY",
+      "estimated": true
+    }
+  ],
+  "step_map": [
+    {
+      "procedure_step": "rear_door_removed",
+      "component_id": "rear_door",
+      "animation_type": "REMOVE_LINEAR",
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 127
+      }
+    },
+    {
+      "procedure_step": "cassette_removed",
+      "component_id": "cassette",
+      "animation_type": "SLIDE",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 151
+      }
+    },
+    {
+      "procedure_step": "cartridge_removed",
+      "component_id": "cartridge",
+      "animation_type": "SLIDE",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 130
+      }
+    },
+    {
+      "procedure_step": "right_cover_removed",
+      "component_id": "right_cover",
+      "animation_type": "REMOVE_LINEAR",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 131
+      }
+    },
+    {
+      "procedure_step": "left_cover_removed",
+      "component_id": "left_cover",
+      "animation_type": "REMOVE_LINEAR",
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 138
+      }
+    },
+    {
+      "procedure_step": "rear_top_cover_removed",
+      "component_id": "rear_top_cover",
+      "animation_type": "REMOVE_LINEAR",
+      "direction": [
+        0,
+        1,
+        -1
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 142
+      }
+    },
+    {
+      "procedure_step": "ADF_REMOVE_01",
+      "component_id": "adf_screws",
+      "animation_type": "UNSCREW",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 151
+      }
+    },
+    {
+      "procedure_step": "ADF_REMOVE_02",
+      "component_id": "adf_connectors",
+      "animation_type": "DISCONNECT",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 151
+      }
+    },
+    {
+      "procedure_step": "ADF_REMOVE_03",
+      "component_id": "adf_flat_cable",
+      "animation_type": "DISCONNECT",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 152
+      }
+    },
+    {
+      "procedure_step": "ADF_REMOVE_04",
+      "component_id": "adf_screws",
+      "animation_type": "UNSCREW",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 152
+      }
+    },
+    {
+      "procedure_step": "ADF_REMOVE_05",
+      "component_id": "reader_adf",
+      "animation_type": "LIFT",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "distance_mm": 90,
+      "distance_status": "APPROXIMATED",
+      "estimated": true,
+      "geometry_status": "SIMULATION_ONLY",
+      "oem_source": {
+        "source_document": "SM_R6",
+        "source_page": 152
+      }
+    }
+  ],
+  "correction_schema": {
+    "key": [
+      "model_id",
+      "component_id",
+      "state_id"
+    ],
+    "fields": [
+      "scale",
+      "offset_mm",
+      "rotation_deg",
+      "anchor_offset"
+    ]
+  }
+}

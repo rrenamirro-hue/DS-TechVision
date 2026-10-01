@@ -1,0 +1,9 @@
+{
+  "schema_version": 2,
+  "components": [
+    {"component_id": "adf_pickup_roller", "component_type": "ROLLER", "inventory_id": "160:10:FC8-9251-000", "part_number": "FC8-9251-000", "name": "ROLLER, PICK-UP", "figure": "160", "quantity": 1, "reference_images": ["1643_reader_adf_figure160"], "oem_source": {"document": "PC_R9", "figure_page": 44, "pdf_page": 45}, "localization_status": "CATALOG_ONLY"},
+    {"component_id": "adf_hinge", "component_type": "HINGE", "inventory_id": "160:16:FM1-T197-000", "part_number": "FM1-T197-000", "name": "HINGE", "figure": "160", "quantity": 2, "reference_images": ["1643_reader_adf_figure160"], "oem_source": {"document": "PC_R9", "figure_page": 44, "pdf_page": 45}, "localization_status": "CATALOG_ONLY"},
+    {"component_id": "adf_front_cover", "component_type": "COVER", "inventory_id": "160:4:FE8-3475-000", "part_number": "FE8-3475-000", "name": "COVER, FRONT", "figure": "160", "quantity": 1, "reference_images": ["1643_reader_adf_figure160"], "oem_source": {"document": "PC_R9", "figure_page": 44, "pdf_page": 45}, "localization_status": "CATALOG_ONLY"}
+  ],
+  "note": "Los números y cantidades provienen del Parts Catalog OEM; no se asignan estas piezas a los anchors de la cubierta derecha sin evidencia explícita."
+}

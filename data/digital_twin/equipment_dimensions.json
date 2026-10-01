@@ -1,0 +1,31 @@
+{
+  "model_id": "CANON_IR1643I",
+  "canonical_unit": "mm",
+  "variants": [
+    {
+      "id": "WITHOUT_NFC",
+      "width_mm": 480,
+      "depth_mm": 464,
+      "height_mm": 452,
+      "geometry_status": "OEM_MEASURED",
+      "estimated": false,
+      "source_document": "SM_R6",
+      "source_page": {"printed": 10, "pdf": 21},
+      "source_figure": "Dimensions (W x D x H)",
+      "measurement_source": "Service Manual specification table, without NFC"
+    },
+    {
+      "id": "WITH_NFC",
+      "width_mm": 494,
+      "depth_mm": 464,
+      "height_mm": 452,
+      "geometry_status": "OEM_MEASURED",
+      "estimated": false,
+      "source_document": "SM_R6",
+      "source_page": {"printed": 10, "pdf": 21},
+      "source_figure": "Dimensions (W x D x H)",
+      "measurement_source": "Service Manual specification table, with NFC"
+    }
+  ],
+  "internal_dimensions_notice": "No se derivan medidas internas exactas a partir de las dimensiones generales."
+}

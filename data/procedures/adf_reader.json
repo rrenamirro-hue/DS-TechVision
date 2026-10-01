@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "model_id": "CANON_IR1643I",
+  "model_label": "Canon imageRUNNER 1643i",
+  "procedures": [
+    {
+      "procedure_id": "ADF_READER_REMOVE",
+      "title": "Retirar el conjunto ADF + Reader de la máquina",
+      "status": "prototype_spatial_calibration_pending",
+      "source_document": "SM_R6",
+      "source_pages": [{"printed": 140, "pdf": 151}, {"printed": 141, "pdf": 152}],
+      "related_parts_figure": {"document": "PC_R9", "figure": "160 - READER/ADF ASSEMBLY", "pdf_page": 44, "parts_list_pdf_page": 45},
+      "safety_gate": [
+        {"id": "power_disconnected", "instruction": "Apagar el equipo siguiendo el procedimiento especificado y desconectar el enchufe antes del servicio.", "source_document": "SM_R6", "source_page": {"printed": 4, "pdf": 15}},
+        {"id": "sharp_edges_acknowledged", "instruction": "Confirmar que se trabajará con precaución ante bordes, esquinas, resortes y salientes cortantes.", "source_document": "SM_R6", "source_page": {"printed": 4, "pdf": 15}},
+        {"id": "qualified_technician", "instruction": "Confirmar que la intervención será realizada por personal técnico autorizado.", "source_document": "SM_R6", "source_page": {"printed": 4, "pdf": 15}}
+      ],
+      "preparations": [
+        {"id": "rear_door_removed", "order": 1, "instruction": "Completar Removing the Rear Door Unit.", "source_page": {"printed": 116, "pdf": 127}, "safety_warnings": ["Al finalizar esa preparación, desplazar la máquina al centro de la mesa para evitar una caída (advertencia OEM en página impresa 117 / PDF 128)."]},
+        {"id": "cassette_removed", "order": 2, "instruction": "Retirar el cassette.", "source_page": {"printed": 140, "pdf": 151}, "safety_warnings": []},
+        {"id": "cartridge_removed", "order": 3, "instruction": "Completar Removing the Cartridge.", "source_page": {"printed": 119, "pdf": 130}, "safety_warnings": ["Cubrir el tambor fotosensible retirado con 5 o más hojas de papel y no exponer el cartucho a luz solar directa."]},
+        {"id": "right_cover_removed", "order": 4, "instruction": "Completar Removing the Right Cover Unit.", "source_page": {"printed": 120, "pdf": 131}, "safety_warnings": []},
+        {"id": "left_cover_removed", "order": 5, "instruction": "Completar Removing the Left Cover Unit.", "source_page": {"printed": 127, "pdf": 138}, "safety_warnings": []},
+        {"id": "rear_top_cover_removed", "order": 6, "instruction": "Completar Removing the Rear Top Cover.", "source_page": {"printed": 131, "pdf": 142}, "safety_warnings": []}
+      ],
+      "steps": [
+        {
+          "step_id": "ADF_REMOVE_01", "procedure_id": "ADF_READER_REMOVE", "model_id": "CANON_IR1643I",
+          "title": "Retirar los tornillos iniciales",
+          "instruction": "Retirar los tres tornillos señalados en la vista principal y el tornillo señalado en LEFT VIEW (4 tornillos en total).",
+          "preconditions": ["Todas las preparaciones y condiciones de seguridad confirmadas."],
+          "safety_warnings": ["Conservar cada tornillo identificado para reinstalar el tipo correcto en su posición original."],
+          "required_actions": ["Retirar 3 tornillos en las posiciones de la fotografía principal.", "Retirar 1 tornillo en la posición de la vista izquierda."],
+          "target_components": ["Conjunto ADF + Reader", "Tornillos de fijación mostrados por OEM"], "part_numbers": [],
+          "source_document": "SM_R6", "source_page": {"printed": 140, "pdf": 151}, "source_figure": "Procedure 1 - 3x + LEFT VIEW 1x",
+          "reference_image": "/api/procedures/ADF_READER_REMOVE/steps/ADF_REMOVE_01/reference", "reference_crop": [70, 285, 550, 480],
+          "visual_anchor": {"reference_id": null, "tracking_mode": "not_mapped", "calibration_status": "NOT_MAPPED", "required": false},
+          "expected_confirmation": "El técnico confirma que retiró los 4 tornillos OEM señalados."
+        },
+        {
+          "step_id": "ADF_REMOVE_02", "procedure_id": "ADF_READER_REMOVE", "model_id": "CANON_IR1643I",
+          "title": "Liberar conectores y mazo de cables",
+          "instruction": "En la zona ampliada por OEM, desconectar los cuatro conectores señalados y liberar el mazo de cables del punto de sujeción indicado (1x), siguiendo el orden visual 1 → 2.",
+          "preconditions": ["ADF_REMOVE_01 confirmado."], "safety_warnings": ["No tirar de los cables; actuar sobre los conectores y la sujeción mostrados."],
+          "required_actions": ["Desconectar 4 conectores señalados.", "Liberar 1 sujeción de cable según los indicadores 1 y 2."],
+          "target_components": ["Conectores del conjunto ADF/Reader", "Mazo de cables y sujeción"], "part_numbers": [],
+          "source_document": "SM_R6", "source_page": {"printed": 140, "pdf": 151}, "source_figure": "Procedure 2 - connector 4x + cable guide 1x",
+          "reference_image": "/api/procedures/ADF_READER_REMOVE/steps/ADF_REMOVE_02/reference", "reference_crop": [70, 485, 555, 700],
+          "visual_anchor": {"reference_id": null, "tracking_mode": "not_mapped", "calibration_status": "NOT_MAPPED", "required": false},
+          "expected_confirmation": "El técnico confirma cuatro conectores desconectados y el mazo liberado."
+        },
+        {
+          "step_id": "ADF_REMOVE_03", "procedure_id": "ADF_READER_REMOVE", "model_id": "CANON_IR1643I",
+          "title": "Liberar el cable plano",
+          "instruction": "Ejecutar exactamente la secuencia gráfica OEM 1–6 para liberar y desconectar el cable plano en la zona mostrada.",
+          "preconditions": ["ADF_REMOVE_02 confirmado."],
+          "safety_warnings": ["La fotografía OEM es la autoridad para la orientación del seguro y del cable; si la disposición física no coincide, detenerse y abrir la página del manual."],
+          "required_actions": ["Seguir en orden los indicadores 1, 2, 3, 4, 5 y 6 de la fotografía OEM.", "No continuar si no se distingue con claridad el seguro del conector."],
+          "target_components": ["Cable plano", "Seguro del conector del cable plano"], "part_numbers": [],
+          "source_document": "SM_R6", "source_page": {"printed": 141, "pdf": 152}, "source_figure": "Procedure 3 - sequence 1 through 6",
+          "reference_image": "/api/procedures/ADF_READER_REMOVE/steps/ADF_REMOVE_03/reference", "reference_crop": [70, 20, 550, 385],
+          "visual_anchor": {"reference_id": null, "tracking_mode": "not_mapped", "calibration_status": "NOT_MAPPED", "required": false},
+          "expected_confirmation": "El técnico confirma que completó la secuencia OEM 1–6 y que el cable plano quedó liberado."
+        },
+        {
+          "step_id": "ADF_REMOVE_04", "procedure_id": "ADF_READER_REMOVE", "model_id": "CANON_IR1643I",
+          "title": "Retirar dos tornillos y liberar el cableado posterior",
+          "instruction": "En la vista posterior ampliada, retirar los dos tornillos señalados y liberar una sujeción del mazo de cables.",
+          "preconditions": ["ADF_REMOVE_03 confirmado."], "safety_warnings": ["Mantener el conjunto soportado y el cableado sin tensión."],
+          "required_actions": ["Retirar 2 tornillos señalados.", "Liberar 1 sujeción del mazo señalada."],
+          "target_components": ["Fijaciones posteriores del conjunto", "Mazo de cables posterior"], "part_numbers": [],
+          "source_document": "SM_R6", "source_page": {"printed": 141, "pdf": 152}, "source_figure": "Procedure 4 - screw 2x + cable guide 1x",
+          "reference_image": "/api/procedures/ADF_READER_REMOVE/steps/ADF_REMOVE_04/reference", "reference_crop": [70, 395, 550, 585],
+          "visual_anchor": {"reference_id": null, "tracking_mode": "not_mapped", "calibration_status": "NOT_MAPPED", "required": false},
+          "expected_confirmation": "El técnico confirma dos tornillos retirados y el cableado posterior liberado."
+        },
+        {
+          "step_id": "ADF_REMOVE_05", "procedure_id": "ADF_READER_REMOVE", "model_id": "CANON_IR1643I",
+          "title": "Elevar y retirar el conjunto ADF + Reader",
+          "instruction": "Aplicar los movimientos laterales mostrados en los dos detalles OEM y elevar verticalmente el conjunto ADF + Reader para retirarlo de la máquina.",
+          "preconditions": ["ADF_REMOVE_04 confirmado.", "Todos los conectores y cables indicados están libres."],
+          "safety_warnings": ["No elevar si algún cable o conector continúa unido.", "La cantidad de personas y el método de manipulación deben validarse localmente antes de la prueba física."],
+          "required_actions": ["Comprobar visualmente ambos puntos laterales mostrados.", "Realizar los movimientos laterales indicados.", "Elevar el conjunto en la dirección de la flecha OEM."],
+          "target_components": ["Conjunto ADF + Reader", "Puntos laterales de retención"], "part_numbers": [],
+          "source_document": "SM_R6", "source_page": {"printed": 141, "pdf": 152}, "source_figure": "Procedure 5 - lateral releases + upward removal",
+          "reference_image": "/api/procedures/ADF_READER_REMOVE/steps/ADF_REMOVE_05/reference", "reference_crop": [65, 585, 555, 790],
+          "visual_anchor": {"reference_id": null, "tracking_mode": "not_mapped", "calibration_status": "NOT_MAPPED", "required": false},
+          "expected_confirmation": "El técnico confirma que el conjunto ADF + Reader fue retirado y colocado de forma segura."
+        }
+      ]
+    },
+    {
+      "procedure_id": "ADF_READER_SEPARATE", "title": "Separar el ADF del Reader", "status": "reference_only_not_enabled_for_ar",
+      "source_document": "SM_R6", "source_pages": [{"printed": 142, "pdf": 153}, {"printed": 143, "pdf": 154}],
+      "related_parts_figure": {"document": "PC_R9", "figure": "160 - READER/ADF ASSEMBLY", "pdf_page": 44, "parts_list_pdf_page": 45},
+      "safety_gate": [], "preparations": [{"id": "adf_reader_removed", "order": 7, "instruction": "Completar primero ADF_READER_REMOVE.", "source_page": {"printed": 140, "pdf": 151}, "safety_warnings": []}],
+      "steps": []
+    }
+  ]
+}

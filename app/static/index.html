@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#041836">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/static/icons/icon-192.png">
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/ar.css">
+  <link rel="stylesheet" href="/static/recovery.css">
+  <script src="/static/vendor/jsfeat-min.js" defer></script>
+  <script src="/static/natural-tracking.js" defer></script>
+  <script src="/static/twin.js" defer></script>
+  <script src="/static/app.js" defer></script>
+  <title>DS TechVision — DataSystems</title>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="DS TechVision"><span><strong>DS TechVision</strong><small>Canon imageRUNNER 1643i · DataSystems</small></span></a>
+    <div class="top-actions"><button id="installApp" class="text-button" type="button" hidden>Instalar</button><button id="logout" class="text-button" type="button">Salir</button></div>
+  </header>
+  <main class="technician-shell">
+    <section id="guideView" class="technician-view" aria-labelledby="procedureTitle">
+      <div class="intervention-line"><label for="procedureSelect">Intervención</label><select id="procedureSelect"></select></div>
+      <div class="step-overview"><div><span class="eyebrow">GUÍA OEM · PASO ACTUAL</span><h1 id="procedureTitle">Guía de intervención</h1></div><span id="procedureBadge" class="pill wait">Cargando</span></div>
+      <div id="flowPhases" class="flow-phases" aria-label="Progreso por fase"></div>
+      <div id="procedureContent" class="procedure-content"><p class="empty-state">Cargando procedimiento…</p></div>
+    </section>
+    <section id="cameraView" class="technician-view" hidden aria-labelledby="workspaceTitle">
+      <div class="camera-heading"><span id="activeStepLabel">Sin paso activo</span><h1 id="workspaceTitle">Canon imageRUNNER 1643i</h1><p id="activeAction">Seleccioná una intervención</p><div id="visionIdentity" class="vision-identity" role="status">EQUIPO UNKNOWN · VISTA UNKNOWN · ESTADO UNKNOWN</div><div id="visionEvidence" class="vision-evidence">Embeddings visuales, OCR y localización fina pendientes.</div></div>
+      <div id="cameraStage" class="camera-stage" aria-label="Video sincronizado con el paso actual">
+        <video id="camera" muted playsinline autoplay></video>
+        <canvas id="arOverlay" class="ar-overlay" aria-hidden="true"></canvas>
+        <div id="cameraPlaceholder" class="camera-placeholder"><span class="lens-icon">◎</span><strong>Cámara del paso</strong><span>Sin referencia detectada, se muestra la imagen OEM.</span><button id="startCameraInStage" class="primary" type="button">Iniciar cámara</button></div>
+        <div class="camera-top"><span class="live-dot"></span><span id="cameraStatus">CÁMARA DETENIDA</span></div>
+        <div class="camera-bottom"><span id="trackingStatus">TRACKING NO DISPONIBLE</span><span id="calibrationStatus">PENDIENTE</span></div>
+      </div>
+      <div id="cameraFallback" class="camera-fallback" hidden><strong>AR no disponible para esta vista</strong><img id="cameraOemImage" alt="Referencia OEM del paso actual"><span>Continuá con la imagen y las instrucciones del paso.</span></div>
+      <p id="cameraNotice" class="hint" role="status">El video permanece local en el dispositivo.</p>
+      <div class="camera-controls"><button id="openCamera" class="primary" type="button">Iniciar cámara</button><button id="closeCamera" class="secondary" type="button">Detener</button><button id="flipCamera" class="secondary" type="button">Cambiar cámara</button></div>
+      <div id="demoControls" class="demo-controls" hidden><span class="pill wait">REFERENCIA OEM · MOVIMIENTO ILUSTRATIVO</span><a id="referenceLink" class="button-link secondary" href="#" target="_blank" rel="noopener">Abrir foto de prueba</a><button id="calibrateAnchor" class="secondary" type="button">Reiniciar seguimiento</button></div>
+      <div class="camera-primary-actions"><button id="cameraGuide" class="secondary" type="button">Volver a guía</button><a id="manualCurrent" class="button-link secondary" href="#">Ver manual</a><button id="completeCurrent" class="primary" type="button" disabled>Completar paso</button></div>
+    </section>
+    <section id="manualView" class="technician-view" hidden aria-labelledby="searchTitle">
+      <div class="step-overview"><div><span class="eyebrow">EVIDENCIA OEM</span><h1 id="searchTitle">Manual y consulta</h1></div></div>
+      <div id="manualStepContext" class="manual-step-context"></div>
+      <form id="searchForm" class="form">
+        <label for="model">Modelo</label><select id="model" name="model"><option value="CANON_IR1643I">Canon imageRUNNER 1643i</option></select>
+        <label for="document">Documento</label><select id="document" name="document"><option value="">Ambos manuales</option><option value="SM_R6">Service Manual · Rev. 6</option><option value="PC_R9">Parts Catalog · Rev. 9</option></select>
+        <label for="question">Consulta técnica</label><textarea id="question" minlength="3" maxlength="400" rows="2" placeholder="Ej.: rodillo de recogida de bandeja 1" required></textarea>
+        <button id="searchButton" class="primary" type="submit">Buscar evidencia</button>
+      </form>
+      <div class="result-header"><strong>Respuesta técnica en español</strong><small id="resultCount">Sin consulta</small></div>
+      <div id="results" class="results" aria-live="polite"><p class="empty-state">Consultá los manuales. Verificá siempre la página OEM antes de intervenir.</p></div>
+      <details class="technical-details"><summary>Estado de la base documental</summary><span id="indexBadge" class="pill wait">Verificando</span><div id="manualStatus" class="manual-status"></div></details>
+    </section>
+    <section id="labView" class="technician-view" hidden aria-labelledby="workshopTitle">
+      <div class="step-overview"><div><span class="eyebrow">LABORATORIO · EXPERIMENTAL</span><h1 id="workshopTitle">Digital Twin aproximado</h1></div><span id="twinStateBadge" class="pill wait">No iniciado</span></div>
+      <p class="warning-box">Geometría aproximada. No validado físicamente. No usar la ubicación de bloques como guía de desmontaje.</p>
+      <div class="workshop-toolbar"><button id="assembledView" class="secondary active" type="button">Ensamblado</button><button id="explodedView" class="secondary" type="button">Explotado</button><button id="hideCovers" class="secondary" type="button">Ocultar cubiertas</button><label for="componentSearch">Pieza</label><input id="componentSearch" type="search" placeholder="Nombre o part number"></div>
+      <div class="workshop-main"><div class="twin-stage"><canvas id="twinCanvas" aria-label="Modelo 3D aproximado interactivo"></canvas><div class="twin-legend">Arrastrar · zoom · seleccionar</div></div><div class="twin-detail"><strong id="twinComponentName">Seleccioná una pieza</strong><div id="twinComponentData" class="microcopy">Solo se muestra la pieza seleccionada; el catálogo OEM permanece como fuente.</div><a id="twinOemLink" class="button-link secondary" href="#" target="_blank" rel="noopener" hidden>Ver fuente OEM</a><button id="twinProcedureAction" class="primary" type="button">Ir al procedimiento</button><p id="twinConfidence" class="hint">Posiciones y tamaños internos sin medición física.</p></div></div>
+    </section>
+  </main>
+  <nav class="bottom-nav" aria-label="Navegación principal"><button type="button" data-view="guide" class="active">GUÍA</button><button type="button" data-view="camera">CÁMARA</button><button type="button" data-view="manual">MANUAL</button></nav>
+  <footer><button id="openLab" type="button">Laboratorio experimental</button> · DS TechVision by DataSystems</footer>
+</body>
+</html>

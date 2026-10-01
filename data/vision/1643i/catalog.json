@@ -1,0 +1,121 @@
+{
+  "schema_version": 2,
+  "model": "CANON_IR1643I",
+  "references": [
+    {
+      "reference_id": "1643_front_closed",
+      "model": "CANON_IR1643I", "view": "front", "state": "MACHINE_CLOSED",
+      "file": "equipment/1643_front_closed.png", "recognition_role": "equipment",
+      "source": "SM_R6", "source_type": "OEM_PDF",
+      "source_page": {"printed": 6, "pdf": 17}, "source_crop_pdf_points": [183, 386, 412, 602],
+      "source_url": null, "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6 - Product Lineup",
+      "procedure_step": null, "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED", "anchors": []
+    },
+    {
+      "reference_id": "1643_front_threequarter",
+      "model": "CANON_IR1643I", "view": "front", "state": "MACHINE_CLOSED",
+      "file": "equipment/1643_front_threequarter.png", "recognition_role": "equipment",
+      "source": "SM_R6", "source_type": "OEM_PDF",
+      "source_page": {"printed": null, "pdf": 1}, "source_crop_pdf_points": [257, 181, 557, 541],
+      "source_url": null, "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6 - Cover",
+      "procedure_step": null, "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED", "anchors": []
+    },
+    {
+      "reference_id": "1643_right_service_open",
+      "model": "CANON_IR1643I",
+      "view": "right",
+      "state": "right_cover_installed_front_access_open",
+      "file": "right/1643_right_service_open.png",
+      "source": "SM_R6",
+      "source_type": "OEM_PDF",
+      "source_page": {"printed": 121, "pdf": 132},
+      "source_crop_pdf_points": [200, 88, 414, 246],
+      "source_url": null,
+      "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6",
+      "procedure_step": "right_cover_removed",
+      "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED",
+      "anchors": [
+        {"id": "right_cover_screw_01", "type": "screw", "x": 0.58, "y": 0.74, "label": "1", "expected_count": 1, "evidence": "SM_R6 PDF 132: paso 1, 1x"},
+        {"id": "right_cover_polygon", "type": "cover", "points": [[0.48, 0.37], [0.94, 0.40], [0.96, 0.89], [0.55, 0.96], [0.48, 0.76]], "evidence": "Contorno trazado sobre la fotografía OEM; aproximado"},
+        {"id": "right_cover_remove", "type": "remove", "from": [0.74, 0.72], "to": [0.96, 0.73], "movement_status": "SIMULATED_MOVEMENT", "evidence": "Dirección ilustrativa; no trayectoria medida por Canon"}
+      ]
+    },
+    {
+      "reference_id": "1643_rear_door_installed",
+      "model": "CANON_IR1643I",
+      "view": "rear",
+      "state": "rear_door_installed",
+      "file": "rear/1643_rear_door_installed.png",
+      "source": "SM_R6",
+      "source_type": "OEM_PDF",
+      "source_page": {"printed": 116, "pdf": 127},
+      "source_crop_pdf_points": [201, 161, 412, 318],
+      "source_url": null,
+      "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6",
+      "procedure_step": "rear_door_removed",
+      "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED",
+      "anchors": []
+    },
+    {
+      "reference_id": "1643_adf_state_01",
+      "model": "CANON_IR1643I",
+      "view": "adf",
+      "state": "covers_removed_before_adf_release",
+      "file": "adf/1643_adf_state_01.png",
+      "source": "SM_R6",
+      "source_type": "OEM_PDF",
+      "source_page": {"printed": 140, "pdf": 151},
+      "source_crop_pdf_points": [135, 309, 345, 464],
+      "source_url": null,
+      "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6",
+      "procedure_step": "ADF_REMOVE_01",
+      "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED",
+      "anchors": []
+    },
+    {
+      "reference_id": "1643_rear_door_removed",
+      "model": "CANON_IR1643I", "view": "rear", "state": "REAR_COVER_REMOVED",
+      "file": "states/1643_rear_door_removed.png", "recognition_role": "equipment",
+      "source": "SM_R6", "source_type": "OEM_PDF",
+      "source_page": {"printed": 117, "pdf": 128}, "source_crop_pdf_points": [199, 343, 414, 511],
+      "source_url": null, "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6",
+      "procedure_step": "rear_door_removed", "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED", "anchors": []
+    },
+    {
+      "reference_id": "1643_right_cover_releasing",
+      "model": "CANON_IR1643I", "view": "right", "state": "RIGHT_COVER_RELEASING",
+      "file": "states/1643_right_cover_releasing.png", "recognition_role": "equipment",
+      "source": "SM_R6", "source_type": "OEM_PDF",
+      "source_page": {"printed": 122, "pdf": 133}, "source_crop_pdf_points": [199, 509, 414, 669],
+      "source_url": null, "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6",
+      "procedure_step": "right_cover_removed", "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED", "anchors": []
+    },
+    {
+      "reference_id": "1643_left_cover_installed",
+      "model": "CANON_IR1643I", "view": "left", "state": "LEFT_COVER_INSTALLED",
+      "file": "equipment/1643_left_cover_installed.png", "recognition_role": "equipment",
+      "source": "SM_R6", "source_type": "OEM_PDF",
+      "source_page": {"printed": 128, "pdf": 139}, "source_crop_pdf_points": [231, 102, 443, 263],
+      "source_url": null, "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6",
+      "procedure_step": "left_cover_removed", "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED", "anchors": []
+    },
+    {
+      "reference_id": "1643_internal_adf_access",
+      "model": "CANON_IR1643I", "view": "internal", "state": "ADF_READER_READY",
+      "file": "states/1643_internal_adf_access.png", "recognition_role": "equipment",
+      "source": "SM_R6", "source_type": "OEM_PDF",
+      "source_page": {"printed": 141, "pdf": 152}, "source_crop_pdf_points": [200, 257, 414, 382],
+      "source_url": null, "attribution": "Canon imageRUNNER 1643i Service Manual Rev. 6",
+      "procedure_step": "ADF_REMOVE_03", "confidence_status": "OEM_IMAGE_NOT_PHYSICALLY_VALIDATED", "anchors": []
+    },
+    {
+      "reference_id": "1643_reader_adf_figure160",
+      "model": "CANON_IR1643I", "view": "internal", "state": "UNKNOWN",
+      "file": "components/reader_adf_figure160.png", "recognition_role": "component_only",
+      "source": "PC_R9", "source_type": "OEM_PDF",
+      "source_page": {"printed": 160, "pdf": 44}, "source_crop_pdf_points": [54, 96, 550, 737],
+      "source_url": null, "attribution": "Canon imageRUNNER 1643i Parts Catalog Rev. 9 - Figure 160",
+      "procedure_step": null, "confidence_status": "CATALOG_ILLUSTRATION_NOT_PHYSICAL_VIEW", "anchors": []
+    }
+  ]
+}
